@@ -73,14 +73,10 @@ li:nth-child(10) .links {
   display: flex;
 }
 /* titulo e paragrafos principais */
-.left-news{
-  
-}
-.left-main-container{
+.left-top-container{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 50%;
   margin: 20px 0 20px 0;
 }
 .main-title{
@@ -88,25 +84,28 @@ li:nth-child(10) .links {
   justify-content: center;
   font-size:52px;
   color: #c4160c;
+  margin-bottom: 10px;
 }
 .main-paragraph{
   font-size: 18px;
   color: #303134;
 }
 /*                         */
+.left-news{
+  width: 50%;
+}
 /* container da esquerda*/
 .left-middle-container{
-  width: 50%;
   display: flex;
-  gap: 20px;
   margin:20px 0 20px 0;
+  gap: 20px;
 }
 .div-texts{
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-h2{
+.subtitle{
   font-size: 14px;
   color: #c4170c;
   font-weight: 500;
@@ -129,4 +128,83 @@ h2{
 .hr-left{
   border: 1px solid #f5f6f7;
   width: 624px;
+}
+
+/* container do meio */
+.middle-news{
+  width: 25%;
+  margin-left: 40px;
+}
+.middle-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 0 40px 0;
+}
+.middle-container-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 36.25px;
+}
+.middle-img{
+  width: 240px;
+  height: 128px;
+  border-radius:12px;
+  margin: 0 auto;
+}
+.middle-subtitle{
+  font-size: 14px;
+  font-weight: 500;
+  color: #16AE54;
+}
+.middle-container__title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #2F3134;
+}
+.middle-container__paragraph{
+  font-size: 14px;
+  font-weight: 400;
+  color: #2F3134;
+}
+/* container da direita */
+.right-news{
+  width: 25%;
+  margin-left: 40px;
+}
+.right-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 0 40px 0;
+}
+.right-container-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+.right-img{
+  width: 240px;
+  height: 128px;
+  border-radius:12px;
+  margin: 0 auto;
+}
+.right-subtitle{
+  font-size: 14px;
+  font-weight: 500;
+  color: #EC8006;
+}
+.right-container__title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #2F3134;
+}
+.right-container__paragraph{
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2F3134;
+  gap: 10px;
 }
